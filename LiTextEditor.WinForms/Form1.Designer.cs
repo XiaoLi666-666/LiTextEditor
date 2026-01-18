@@ -50,6 +50,7 @@ namespace LiTextEditor.WinForms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             msMainMenu = new MenuStrip();
             tsmiFile = new ToolStripMenuItem();
             tsmiNew = new ToolStripMenuItem();
@@ -243,6 +244,7 @@ namespace LiTextEditor.WinForms
             Controls.Add(ssMainStatus);
             Controls.Add(tbMainEditor);
             Controls.Add(msMainMenu);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = msMainMenu;
             Name = "Form1";
             Text = "LiTextEditor";
@@ -279,3 +281,6 @@ namespace LiTextEditor.WinForms
         private ToolStripMenuItem tsmiSet;
     }
 }
+
+
+// Li
