@@ -128,6 +128,7 @@ namespace LiTextEditor.WinForms
             tsmiBackup.ShortcutKeys = Keys.Control | Keys.B;
             tsmiBackup.Size = new Size(307, 22);
             tsmiBackup.Text = "备份（&Backup）";
+            tsmiBackup.Click += NotBeenDevelopedYet;
             // 
             // tsmiViewAllBackups
             // 
@@ -137,6 +138,7 @@ namespace LiTextEditor.WinForms
             tsmiViewAllBackups.ShortcutKeys = Keys.Control | Keys.V;
             tsmiViewAllBackups.Size = new Size(307, 22);
             tsmiViewAllBackups.Text = "查看所有备份（&ViewAllBackups）";
+            tsmiViewAllBackups.Click += NotBeenDevelopedYet;
             // 
             // toolStripMenuItem2
             // 

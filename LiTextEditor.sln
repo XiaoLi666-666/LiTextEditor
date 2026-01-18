@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiTextEditor.FileIO.CSharp", "LiTextEditor.FileIO.CSharp\LiTextEditor.FileIO.CSharp.csproj", "{EEAE1BFC-6634-4D7E-9081-FF6A72F1A627}"
-	ProjectSection(ProjectDependencies) = postProject
-		{08EB3F5E-1387-48B1-9FF2-87BBA761ED70} = {08EB3F5E-1387-48B1-9FF2-87BBA761ED70}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiTextEditor.Algorithm.Cpp", "LiTextEditor.Algorithm.Cpp\LiTextEditor.Algorithm.Cpp.vcxproj", "{08EB3F5E-1387-48B1-9FF2-87BBA761ED70}"
 EndProject
@@ -16,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiTextEditor.WinForms", "Li
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiTextEditor.YAML.CSharp", "LiTextEditor.YAML.CSharp\LiTextEditor.YAML.CSharp.csproj", "{B455454F-25FA-443F-A635-792A82767BC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{9FA3D6BD-1EC1-3BA5-80CB-CE02773A58D5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

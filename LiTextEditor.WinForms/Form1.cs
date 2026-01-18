@@ -15,7 +15,6 @@ namespace LiTextEditor.WinForms
         public Form1()
         {
             InitializeComponent();
-            var developingMenuItems = new[] { tsmiBackup, tsmiViewAllBackups };
         }
 
         private void Copy(object sender, EventArgs e)
@@ -280,6 +279,17 @@ namespace LiTextEditor.WinForms
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
+        }
+
+        // 暂未开发完成
+        private void NotBeenDevelopedYet(object sender, EventArgs e)
+        {
+            MessageBox.Show
+                (
+                "暂未开发完成此功能",
+                "提示",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
         }
     }
 }

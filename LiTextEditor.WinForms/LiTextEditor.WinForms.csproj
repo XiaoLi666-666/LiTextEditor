@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LiTextEditor.FileIO.CSharp\LiTextEditor.FileIO.CSharp.csproj" />
-    <ProjectReference Include="..\LiTextEditor.YAML.CSharp\LiTextEditor.YAML.CSharp.csproj" />
   </ItemGroup>
 
 </Project>
