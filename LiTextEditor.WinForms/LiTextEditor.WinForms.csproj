@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiTextEditor.FileIO.CSharp\LiTextEditor.FileIO.CSharp.csproj" />
+    <ProjectReference Include="..\LiTextEditor.YAML.CSharp\LiTextEditor.YAML.CSharp.csproj" />
+  </ItemGroup>
+
+</Project>
