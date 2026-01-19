@@ -15,6 +15,7 @@ namespace LiTextEditor.WinForms
         public Form1()
         {
             InitializeComponent();
+            this.FormClosing += new FormClosingEventHandler(Closing);
         }
 
         private void Copy(object sender, EventArgs e)
@@ -242,7 +243,7 @@ namespace LiTextEditor.WinForms
             }
         }
 
-        private void Form1_Closing(object sender, FormClosingEventArgs e)
+        private void Closing(object sender, FormClosingEventArgs e)
         {
             try
             {

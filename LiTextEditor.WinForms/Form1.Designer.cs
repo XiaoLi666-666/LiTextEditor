@@ -248,7 +248,7 @@ namespace LiTextEditor.WinForms
             MainMenuStrip = msMainMenu;
             Name = "Form1";
             Text = "LiTextEditor";
-            FormClosing += Form1_Closing;
+            FormClosing += Closing;
             msMainMenu.ResumeLayout(false);
             msMainMenu.PerformLayout();
             ssMainStatus.ResumeLayout(false);
@@ -281,6 +281,3 @@ namespace LiTextEditor.WinForms
         private ToolStripMenuItem tsmiSet;
     }
 }
-
-
-// Li
